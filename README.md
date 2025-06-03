@@ -10,7 +10,7 @@ In these works, we developed an analytical approach to the Kuramoto model. The f
 
 ## Demonstration
 
-The file `budzinski2022_figure1.m` provides a demonstration for Figure 1 in (Budzinski\*, Nguyen\* et al., *Chaos*, 2022):
+The file `km_operator_expression.m` provides a demonstration for Figure 1 in (Budzinski\*, Nguyen\* et al., *Chaos*, 2022):
 
 <p align="center">
 	<img src="https://mullerlab.ca/assets/img/complex-kuramoto/fig1_chaos2022.jpg" width="600">
@@ -18,7 +18,7 @@ The file `budzinski2022_figure1.m` provides a demonstration for Figure 1 in (Bud
 
 ## Dependencies
 
-The functions in this repository use [CircStat](https://github.com/circstat/circstat-matlab) by Philipp Berens and [Expokit](https://www.maths.uq.edu.au/expokit).
+The file `km_operator_expression.m` is self-contained, and all functions needed are included there.
 
 ## Installation
 
@@ -28,8 +28,8 @@ First, download or clone the repository:
 git clone https://github.com/mullerlab/complex-kuramoto
 ```
 
-Then navigate to the installation. Once you have all dependencies ready on the MATLAB path (see above), you will be able to run the demonstrations in this repository.
+Then navigate to the installation and run the file `km_operator_expression.m`.
 
 ## Developers
 
-[Roberto Budzinski](https://scholar.google.com/citations?user=6rsul4YAAAAJ&hl=en), [Gabriel Benigno](https://scholar.google.com/citations?user=BsNdLCkAAAAJ&hl=en), and [Lyle Muller](http://mullerlab.ca) (Western Academy for Advanced Research)
+[Roberto Budzinski](https://scholar.google.com/citations?user=6rsul4YAAAAJ&hl=en) and [Lyle Muller](http://mullerlab.ca) (Western Academy for Advanced Research)
